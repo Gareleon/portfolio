@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 120 20% 95%; /* Soft beige for a natural base */
+    --foreground: 120 15% 15%; /* Dark olive for text */
+    --card: 120 30% 98%; /* Very light green-tinted white */
+    --card-foreground: 120 15% 15%; /* Dark olive for card text */
+    --popover: 120 30% 98%; /* Matching card background */
+    --popover-foreground: 120 15% 15%; /* Dark olive */
+    --primary: 120 40% 50%; /* Bamboo green */
+    --primary-foreground: 0 0% 100%; /* White text */
+    --secondary: 90 30% 75%; /* Light sage green */
+    --secondary-foreground: 120 15% 15%; /* Dark olive */
+    --muted: 90 20% 90%; /* Soft mint green */
+    --muted-foreground: 120 10% 40%; /* Medium olive-gray */
+    --accent: 150 60% 80%; /* Soft pastel blue */
+    --accent-foreground: 0 0% 100%; /* Light pastel green */
+    --destructive: 0 70% 50%; /* Subtle muted red */
+    --destructive-foreground: 0 0% 100%; /* White text */
+    --border: 120 15% 80%; /* Pale green-gray for borders */
+    --input: 120 15% 90%; /* Light sage */
+    --ring: 120 40% 50%; /* Bamboo green for focus rings */
+    --chart-1: 90 50% 40%; /* Mossy green */
+    --chart-2: 60 35% 45%; /* Olive green */
+    --chart-3: 30 40% 55%; /* Earthy brown */
+    --chart-4: 15 50% 60%; /* Terracotta orange */
+    --chart-5: 350 65% 50%; /* Subtle red bloom */
+    --radius: 0.75rem; /* Smooth edges for a natural feel */
+  }
+
+  .dark {
+    --background: 0 0% 10%; /* Charcoal black */
+    --foreground: 0 0% 95%; /* Bright ash white for text */
+    --card: 0 0% 15%; /* Dark gray charcoal */
+    --card-foreground: 0 0% 95%; /* Bright ash white for card text */
+    --popover: 0 0% 15%; /* Matching card background */
+    --popover-foreground: 0 0% 95%; /* Bright ash white */
+    --primary: 15 80% 50%; /* Molten lava red */
+    --primary-foreground: 0 0% 100%; /* White text */
+    --secondary: 30 60% 40%; /* Fiery orange */
+    --secondary-foreground: 0 0% 95%; /* Bright ash white */
+    --muted: 0 0% 20%; /* Dark gray */
+    --muted-foreground: 0 0% 50%; /* Medium ash gray */
+    --accent: 0 0% 30%; /* Vibrant ember orange, HOVER COLOR*/
+    --accent-foreground: 15 90% 60%; /* Charcoal black, TEXT HOVER COLOR*/
+    --destructive: 0 70% 50%; /* Bright red for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White text */
+    --border: 0 0% 20%; /* Darker charcoal for borders */
+    --input: 0 0% 25%; /* Slightly lighter charcoal */
+    --ring: 15 80% 50%; /* Molten lava red for focus rings */
+    --chart-1: 15 90% 60%; /* Bright lava red */
+    --chart-2: 30 75% 50%; /* Ember orange */
+    --chart-3: 50 70% 40%; /* Glowing yellow */
+    --chart-4: 0 0% 80%; /* Smoky gray */
+    --chart-5: 340 75% 55%; /* Magmatic pink */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
