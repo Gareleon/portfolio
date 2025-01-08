@@ -38,7 +38,6 @@ export const projectsData = [
       "Firebase",
       "E-Commerce",
       "Express.js",
-      "JWT",
       "MongoDB",
     ],
   },

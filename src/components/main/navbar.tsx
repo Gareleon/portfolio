@@ -124,9 +124,11 @@ export function Navbar() {
       </NavigationMenu>
       <div className="space-x-3 items-center hidden sm:flex">
         <ThemeToggleButton />
-        <Button variant="default">
-          <Typography text="Contact" variant="h5" />
-        </Button>
+        <a href="#contact-form" title="Link to contact-form">
+          <Button variant="default">
+            <Typography text="Contact" variant="h5" />
+          </Button>
+        </a>
       </div>
     </div>
   );

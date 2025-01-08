@@ -3,7 +3,7 @@ import Typography from "./typography";
 
 export function Introduction() {
   return (
-    <div
+    <section
       className="min-h-[90vh] w-full flex flex-col-reverse gap-4 sm:flex-row p-3 sm:px-8 md:py-16 lg:py-32 items-center"
       id="introduction"
     >
@@ -35,6 +35,6 @@ export function Introduction() {
           text="Passionate about web development and data science since a young age, I’ve always had a knack for math, logic, and problem-solving. I love hands-on learning and tackling challenges, as seen in my project Simplify Productivity, where I worked with tools like TypeScript, Next.js, and PostgreSQL. I believe in learning through practice and breaking down tasks into manageable steps. Looking ahead, I’m focused on becoming a leader in data science."
         />
       </div>
-    </div>
+    </section>
   );
 }
