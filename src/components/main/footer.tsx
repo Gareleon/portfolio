@@ -13,28 +13,52 @@ export default function Footer() {
         <div className=" text-center space-y-6">
           <p>Connect with me on social media</p>
           <div className="space-x-6 text-2xl flex flex-wrap justify-center py-2">
-            <a href="" title="facebook">
+            <a
+              href=""
+              title="facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MdFacebook className="hover:text-primary" />
             </a>
-            <a href="https://x.com/SimplifyProblem" title="x">
+            <a
+              href="https://x.com/SimplifyProblem"
+              title="x"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsTwitterX className="hover:text-primary" />
             </a>
-            <a href="https://github.com/Gareleon" title="github">
+            <a
+              href="https://github.com/Gareleon"
+              title="github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <RxGithubLogo className="hover:text-primary" />
             </a>
             <a
               href="https://www.linkedin.com/company/simplify-problems-llc"
               title="linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <RxLinkedinLogo className="hover:text-primary" />
             </a>
             <a
               href="https://www.instagram.com/simplifyproblems/"
               title="instagram"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <RxInstagramLogo className="hover:text-primary" />
             </a>
-            <a href="https://www.youtube.com/@SimplifyProblems" title="youtube">
+            <a
+              href="https://www.youtube.com/@SimplifyProblems"
+              title="youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LuYoutube className="hover:text-primary" />
             </a>
           </div>
@@ -62,6 +86,8 @@ export default function Footer() {
                 <a
                   href="https://www.simplifyproductivity.com/"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Simplify Productivity
                 </a>
@@ -70,6 +96,8 @@ export default function Footer() {
                 <a
                   href="https://simplifyproblems.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Simplify Problems
                 </a>
@@ -78,6 +106,8 @@ export default function Footer() {
                 <a
                   href="https://melissa-webshop-frontend.vercel.app"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Melissa Web-Shop
                 </a>
@@ -86,6 +116,8 @@ export default function Footer() {
                 <a
                   href="https://github.com/your-username/react-mini-projects"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   25 React Mini-Projects
                 </a>
@@ -94,6 +126,8 @@ export default function Footer() {
                 <a
                   href="https://github.com/Gareleon/25-react-projects"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Pomodoro App
                 </a>
@@ -102,6 +136,8 @@ export default function Footer() {
                 <a
                   href="https://gareleon.github.io/fCC-pomodoro-app/"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   JS Calculator
                 </a>
@@ -118,6 +154,8 @@ export default function Footer() {
                 <a
                   href="https://web-design-tips.example.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Web Design Tips
                 </a>
@@ -126,6 +164,8 @@ export default function Footer() {
                 <a
                   href="https://ecommerce-guide.example.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   E-commerce Best Practices
                 </a>
@@ -134,6 +174,8 @@ export default function Footer() {
                 <a
                   href="https://website-performance.example.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Website Optimization Guide
                 </a>
@@ -142,6 +184,8 @@ export default function Footer() {
                 <a
                   href="https://developer-resources.example.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Developer Resources
                 </a>
@@ -158,6 +202,7 @@ export default function Footer() {
                 <a
                   href="tel:+381653317335"
                   className="text-sm hover:text-primary"
+                  target="_blank"
                 >
                   +381 653317335
                 </a>
@@ -166,6 +211,7 @@ export default function Footer() {
                 <a
                   href="mailto:office@simplifyproblems.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
                 >
                   office@simplifyproblems.com
                 </a>
@@ -174,6 +220,8 @@ export default function Footer() {
                 <a
                   href="mailto:dragan@simplifyproblems.com"
                   className="text-sm hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   dragan@simplifyproblems.com
                 </a>
