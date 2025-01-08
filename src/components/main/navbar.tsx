@@ -93,7 +93,7 @@ export function Navbar() {
                   A list of my expertise, including web development, design, and
                   more.
                 </ListItem>
-                <ListItem href="#contact" title="Contact">
+                <ListItem href="#contact-form" title="Contact">
                   Get in touch with me for inquiries or collaborations.
                 </ListItem>
               </ul>
