@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Typography from "./typography";
+import { Button } from "../ui/button";
 
 export function Introduction() {
   return (
@@ -15,6 +16,22 @@ export function Introduction() {
           height={400}
           className="rounded-md mx-auto mb-4 shadow-lg shadow-primary/50 border-2 border-primary/30"
         />
+        <div className="w-full">
+          <a
+            href="https://drive.google.com/file/d/1TTNSMsA1bRQ-SFHh6zeeTkmrw8vFMCXe/view?usp=drive_link"
+            title="Download CV"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant={"default"} className="w-full">
+              <Typography
+                variant="h5"
+                className="text-center"
+                text="Download CV"
+              />
+            </Button>
+          </a>
+        </div>
       </div>
       <div className="flex flex-col gap-6 w-full mx-auto justify-center items-center py-0 sm:py-8 px-0 sm:px-4">
         <div className="space-y-4">
