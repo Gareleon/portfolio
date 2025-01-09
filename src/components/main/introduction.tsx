@@ -19,7 +19,7 @@ export function Introduction() {
         <div className="w-full">
           <a
             href="https://drive.google.com/file/d/1TTNSMsA1bRQ-SFHh6zeeTkmrw8vFMCXe/view?usp=drive_link"
-            title="Download CV"
+            title="Dragan Ignjatovic CV"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -15,15 +15,51 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata: Metadata = {
+//   title: "Dragan Ignjatovic Portfolio",
+//   description:
+//     "Discover more about Dragan Ignjatovic, a web developer specializing in creating seamless user experiences.",
+//   keywords: "Dragan Ignjatovic, web development, portfolio, UI/UX, Next.js",
+//   openGraph: {
+//     title: "Dragan Ignjatovic Portfolio",
+//     description:
+//       "Explore the portfolio of Dragan Ignjatovic, a web developer skilled in creating sleek designs and robust functionality.",
+//     url: "https://draganignjatovic.com/",
+//     type: "website",
+//     images: [
+//       {
+//         url: "https://draganignjatovic.com/_next/image?url=%2Fimages%2Fdragan.jpg&w=640&q=75",
+//         width: 1200,
+//         height: 630,
+//         alt: "Dragan Ignjatovic Portfolio",
+//       },
+//     ],
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Dragan Ignjatovic Portfolio",
+//     description:
+//       "Find out more about Dragan Ignjatovic's work, expertise, and projects.",
+//     site: "@SimplifyProblem",
+//     images: [
+//       "https://draganignjatovic.com/_next/image?url=%2Fimages%2Fdragan.jpg&w=640&q=75",
+//     ],
+//   },
+//   robots: "index, follow",
+// };
+
 export const metadata: Metadata = {
-  title: "Dragan Ignjatovic Portfolio",
+  title:
+    "Dragan Ignjatovic - Full-Stack Developer & Data Scientist | Portfolio",
   description:
-    "Discover more about Dragan Ignjatovic, a web developer specializing in creating seamless user experiences.",
-  keywords: "Dragan Ignjatovic, web development, portfolio, UI/UX, Next.js",
+    "Welcome to Dragan Ignjatovic's portfolio. Discover expertise in full-stack development, data science, and seamless digital experiences.",
+  keywords:
+    "Dragan Ignjatovic, Dragan Ignjatovic portfolio, full-stack developer, data scientist, web developer, UI/UX designer, Next.js developer, machine learning, data analysis, software development",
   openGraph: {
-    title: "Dragan Ignjatovic Portfolio",
+    title:
+      "Dragan Ignjatovic - Full-Stack Developer & Data Scientist | Portfolio",
     description:
-      "Explore the portfolio of Dragan Ignjatovic, a web developer skilled in creating sleek designs and robust functionality.",
+      "Explore Dragan Ignjatovic's portfolio and discover innovative full-stack solutions, data science projects, and cutting-edge web development.",
     url: "https://draganignjatovic.com/",
     type: "website",
     images: [
@@ -31,16 +67,20 @@ export const metadata: Metadata = {
         url: "https://draganignjatovic.com/_next/image?url=%2Fimages%2Fdragan.jpg&w=640&q=75",
         width: 1200,
         height: 630,
-        alt: "Dragan Ignjatovic Portfolio",
+        alt: "Portrait of Dragan Ignjatovic showcasing expertise in full-stack development and data science",
       },
     ],
+    locale: "en_US",
+    siteName: "Dragan Ignjatovic Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dragan Ignjatovic Portfolio",
+    title:
+      "Dragan Ignjatovic - Full-Stack Developer & Data Scientist | Portfolio",
     description:
-      "Find out more about Dragan Ignjatovic's work, expertise, and projects.",
+      "Discover Dragan Ignjatovic's work in full-stack development, data science, machine learning, and innovative web solutions.",
     site: "@SimplifyProblem",
+    creator: "@SimplifyProblem",
     images: [
       "https://draganignjatovic.com/_next/image?url=%2Fimages%2Fdragan.jpg&w=640&q=75",
     ],

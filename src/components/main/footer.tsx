@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-x-6 text-2xl flex flex-wrap justify-center py-2">
             <a
               href=""
-              title="facebook"
+              title="Dragan Ignjatovic Facebook"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -23,7 +23,7 @@ export default function Footer() {
             </a>
             <a
               href="https://x.com/SimplifyProblem"
-              title="x"
+              title="Dragan Ignjatovic X"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -31,7 +31,7 @@ export default function Footer() {
             </a>
             <a
               href="https://github.com/Gareleon"
-              title="github"
+              title="Dragan Ignjatovic Github"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/company/simplify-problems-llc"
-              title="linkedin"
+              title="Dragan Ignjatovic Linkedin"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -47,7 +47,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.instagram.com/simplifyproblems/"
-              title="instagram"
+              title="Dragan Ignjatovic Instagram"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.youtube.com/@SimplifyProblems"
-              title="youtube"
+              title="Dragan Ignjatovic Youtube"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -88,6 +88,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Simplify Productivity by Dragan Ignjatovic"
                 >
                   Simplify Productivity
                 </a>
@@ -98,6 +99,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Simplify Problems by Dragan Ignjatovic"
                 >
                   Simplify Problems
                 </a>
@@ -108,6 +110,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Melissa Web-Shop by Dragan Ignjatovic"
                 >
                   Melissa Web-Shop
                 </a>
@@ -118,6 +121,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="25 mini projects by Dragan Ignjatovic"
                 >
                   25 React Mini-Projects
                 </a>
@@ -128,6 +132,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Pomodoro APP by Dragan Ignjatovic"
                 >
                   Pomodoro App
                 </a>
@@ -138,6 +143,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="JS Calculator by Dragan Ignjatovic"
                 >
                   JS Calculator
                 </a>
@@ -203,6 +209,7 @@ export default function Footer() {
                   href="tel:+381653317335"
                   className="text-sm hover:text-primary"
                   target="_blank"
+                  title="Dragan Ignjatovic Phone"
                 >
                   +381 653317335
                 </a>
@@ -212,6 +219,7 @@ export default function Footer() {
                   href="mailto:office@simplifyproblems.com"
                   className="text-sm hover:text-primary"
                   target="_blank"
+                  title="Office Email"
                 >
                   office@simplifyproblems.com
                 </a>
@@ -222,6 +230,7 @@ export default function Footer() {
                   className="text-sm hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Dragan Ignjatovic Email"
                 >
                   dragan@simplifyproblems.com
                 </a>
@@ -237,7 +246,7 @@ export default function Footer() {
         <p>
           <MdCopyright className="inline-block mr-2" />
           2024{" "}
-          <a href="#" className="hover:text-primary">
+          <a href="#" className="hover:text-primary" title="Dragan Ignjatovic">
             Dragan Ignjatovic
           </a>
           . All rights reserved.
