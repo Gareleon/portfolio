@@ -16,6 +16,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "../ui/textarea";
 import { FaPaperPlane } from "react-icons/fa";
+import { useState } from "react";
 
 const formSchema = z.object({
   first_name: z
@@ -42,6 +43,9 @@ const formSchema = z.object({
 });
 
 export function ContactForm() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [message, setMessage] = useState("");
+
   // Define the form
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -54,13 +58,33 @@ export function ContactForm() {
   });
 
   // Define submit handler
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
+    setMessage("");
+
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message. Please try again.");
+      }
+
+      setMessage("Message sent successfully!");
+      form.reset(); // Reset form after successful submission
+    } catch (error: any) {
+      setMessage(error.message);
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
     <section
-      className="min-h-screen w-full flex flex-col justify-between items-center gap-8 py-16 px-4 sm:px-6 lg:px-8"
+      className="min-h-screen w-full flex flex-col justify-between items-center gap-8 py-16 px-4 sm:px-6 lg:px-8 bg-popover"
       id="contact-form"
     >
       <Typography text="Contact" variant="h1" />
@@ -143,9 +167,12 @@ export function ContactForm() {
             />
 
             {/* Submit Button */}
-            <Button type="submit">
+            <Button type="submit" disabled={isSubmitting}>
               <FaPaperPlane className="h-5 w-5" />{" "}
-              <Typography variant="p" text="Submit" />
+              <Typography
+                variant="p"
+                text={isSubmitting ? "Sending..." : "Submit"}
+              />
             </Button>
           </form>
         </Form>
