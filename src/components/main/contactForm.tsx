@@ -84,7 +84,7 @@ export function ContactForm() {
 
   return (
     <section
-      className="min-h-screen w-full flex flex-col justify-between items-center gap-8 py-16 px-4 sm:px-6 lg:px-8 bg-popover"
+      className="min-h-screen w-full flex flex-col justify-between items-center gap-8 py-16 px-4 sm:px-6 lg:px-8"
       id="contact-form"
     >
       <Typography text="Contact" variant="h1" />
@@ -92,7 +92,7 @@ export function ContactForm() {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="flex flex-col gap-4 max-w-lg mx-auto p-4 border rounded-md shadow-lg"
+            className="flex flex-col gap-4 max-w-lg mx-auto p-4 border rounded-md shadow-lg bg-popover"
           >
             {/* First Name */}
             <FormField
