@@ -3,7 +3,7 @@ export const projectsData = [
     title: "Identa",
     image: "/images/identa.png",
     description:
-      "A website for offering dental services in Serbia. The website is built using Next.js and Tailwind CSS.",
+      "A website for offering dental services in Serbia. The website is fully responsive, has a modern design and contact form.",
     link: "https://www.identanis.com/",
     tags: ["Next.js", "SendGrid", "ShadCN", "Tailwind CSS"],
   },
