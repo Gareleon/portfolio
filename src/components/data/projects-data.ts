@@ -22,7 +22,7 @@ export const projectsData = [
     image: "/images/simplify-productivity.png",
     description:
       "A web application that helps users manage their time more efficiently by automating repetitive tasks and providing personalized insights.",
-    link: "https://simplify-problems.vercel.app/",
+    link: "https://www.simplifyproductivity.com/",
     tags: [
       "TypeScript",
       "Next.js",
@@ -39,7 +39,7 @@ export const projectsData = [
     image: "/images/simplify-problems.png",
     description:
       "A website offering web development, design, and custom solutions tailored to client needs.",
-    link: "https://simplifyproblems.com",
+    link: "https://simplify-problems.vercel.app/",
     tags: ["HTML", "CSS", "JavaScript", "BootStrap 5", "Web Design"],
   },
   {
