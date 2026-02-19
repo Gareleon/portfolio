@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 import Typography from "./typography";
 import { Progress } from "../ui/progress";
 import { useState } from "react";
-import { dataScience, fullStackDevelopment } from "../data/skills-data";
+import { fullStackDevelopment } from "../data/skills-data";
 
 export function Skills() {
   const [isFullStack, setIsFullStack] = useState(true);
@@ -12,7 +12,8 @@ export function Skills() {
     setIsFullStack(state);
   };
 
-  const skills = isFullStack ? fullStackDevelopment : dataScience;
+  // const skills = isFullStack ? fullStackDevelopment : dataScience;
+  const skills = fullStackDevelopment;
 
   return (
     <section
@@ -20,7 +21,7 @@ export function Skills() {
       id="skills"
     >
       <Typography text="Skills" variant="h1" />
-      <div className="max-w-screen-lg w-full bg-primary/10 flex flex-col sm:flex-row items-center justify-center mt-6">
+      {/* <div className="max-w-screen-lg w-full bg-primary/10 flex flex-col sm:flex-row items-center justify-center mt-6">
         <Button
           variant={`${isFullStack ? "default" : "outline"}`}
           className="w-full sm:w-[50%]"
@@ -35,7 +36,7 @@ export function Skills() {
         >
           Data Science
         </Button>
-      </div>
+      </div> */}
       <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {skills.map((skill) => (
           <div

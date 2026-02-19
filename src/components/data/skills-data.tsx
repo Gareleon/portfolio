@@ -107,59 +107,59 @@ export const fullStackDevelopment: SkillsData[] = [
   },
 ];
 
-export const dataScience: SkillsData[] = [
-  {
-    title: "Programming Languages",
-    description: [
-      {
-        name: "Python",
-        progress: 50,
-        icon: <FaPython size={25} className="text-yellow-500" />,
-      },
-      { name: "SQL", progress: 50, icon: <TbSql size={25} /> },
-      // { name: "Bash", progress: 20, icon: <SiGnubash size={25} /> },
-      // { name: "R", progress: 50, icon: <TbSql size={25} /> },
-      // { name: "Julia", progress: 20, icon: <TbSql size={25} /> },
-    ],
-    icon: FaCode,
-  },
-  {
-    title: "Frameworks",
-    description: [
-      { name: "Pandas", progress: 40, icon: <SiPandas size={25} /> },
-      { name: "NumPy", progress: 30, icon: <SiNumpy size={25} /> },
-      { name: "Scikit", progress: 25, icon: <SiScikitlearn size={25} /> },
-      { name: "Django", progress: 10, icon: <TbBrandDjango size={25} /> },
-    ],
-    icon: FaCodeBranch,
-  },
-  {
-    title: "Databases",
-    description: [
-      { name: "Hadoop", progress: 10, icon: <GrHadoop size={25} /> },
-      {
-        name: "BigQuery",
-        progress: 10,
-        icon: <SiGooglebigquery size={25} />,
-      },
-    ],
-    icon: FaDatabase,
-  },
-  {
-    title: "Tools",
-    description: [
-      { name: "Jupyter Notebook", progress: 50, icon: <SiJupyter size={25} /> },
-      { name: "GitHub", progress: 30, icon: <FaGithub size={25} /> },
-    ],
-    icon: FaTools,
-  },
-  {
-    title: "Other",
-    description: [
-      { name: "Power BI", progress: 10, icon: <IoBarChart size={25} /> },
-      { name: "Tableau", progress: 10, icon: <SiTableau size={25} /> },
-      { name: "FastAPI", progress: 10, icon: <SiFastapi size={25} /> },
-    ],
-    icon: FaCloud,
-  },
-];
+// export const dataScience: SkillsData[] = [
+//   {
+//     title: "Programming Languages",
+//     description: [
+//       {
+//         name: "Python",
+//         progress: 50,
+//         icon: <FaPython size={25} className="text-yellow-500" />,
+//       },
+//       { name: "SQL", progress: 50, icon: <TbSql size={25} /> },
+//       // { name: "Bash", progress: 20, icon: <SiGnubash size={25} /> },
+//       // { name: "R", progress: 50, icon: <TbSql size={25} /> },
+//       // { name: "Julia", progress: 20, icon: <TbSql size={25} /> },
+//     ],
+//     icon: FaCode,
+//   },
+//   {
+//     title: "Frameworks",
+//     description: [
+//       { name: "Pandas", progress: 40, icon: <SiPandas size={25} /> },
+//       { name: "NumPy", progress: 30, icon: <SiNumpy size={25} /> },
+//       { name: "Scikit", progress: 25, icon: <SiScikitlearn size={25} /> },
+//       { name: "Django", progress: 10, icon: <TbBrandDjango size={25} /> },
+//     ],
+//     icon: FaCodeBranch,
+//   },
+//   {
+//     title: "Databases",
+//     description: [
+//       { name: "Hadoop", progress: 10, icon: <GrHadoop size={25} /> },
+//       {
+//         name: "BigQuery",
+//         progress: 10,
+//         icon: <SiGooglebigquery size={25} />,
+//       },
+//     ],
+//     icon: FaDatabase,
+//   },
+//   {
+//     title: "Tools",
+//     description: [
+//       { name: "Jupyter Notebook", progress: 50, icon: <SiJupyter size={25} /> },
+//       { name: "GitHub", progress: 30, icon: <FaGithub size={25} /> },
+//     ],
+//     icon: FaTools,
+//   },
+//   {
+//     title: "Other",
+//     description: [
+//       { name: "Power BI", progress: 10, icon: <IoBarChart size={25} /> },
+//       { name: "Tableau", progress: 10, icon: <SiTableau size={25} /> },
+//       { name: "FastAPI", progress: 10, icon: <SiFastapi size={25} /> },
+//     ],
+//     icon: FaCloud,
+//   },
+// ];
