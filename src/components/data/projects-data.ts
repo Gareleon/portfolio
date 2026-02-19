@@ -1,4 +1,14 @@
+import { title } from "process";
+
 export const projectsData = [
+  {
+    title: "Slatki san",
+    image: "/images/slatki-san.png",
+    description:
+      "A website for offering cake and coffee services in Serbia. The website is fully responsive, has a modern design, and contact form.",
+    link: "https://slatki-san.vercel.app/",
+    tags: ["Next.js", "SendGrid", "ShadCN", "Tailwind CSS"],
+  },
   {
     title: "Identa",
     image: "/images/identa.png",
